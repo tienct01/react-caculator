@@ -1,0 +1,27 @@
+.button {
+    width: 75px;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    background: #519553;
+    color: #FFFFFF;
+    border: none;
+}
+.button:hover {
+    background-color: green;
+    transition: 0.01s;
+}
+.button:active {
+    background-color: #69d76c;
+}
+
+.delete {
+    background-color: #EE5A24;
+}
+.delete:hover {
+    background-color: #EA2027;
+}
+.delete:active {
+    background-color: #FFC312;
+}

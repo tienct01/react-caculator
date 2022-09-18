@@ -1,0 +1,21 @@
+.caculator {
+    width: 350px;
+    height: 440px;
+    background: rgb(0,0,0);
+    background: rgba(56,150,59,1) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.caculator::before {
+    content: "";
+    background: linear-gradient(90deg, purple, green, hotpink);
+    position: absolute;
+    width: 350px;
+    height: 440px;
+    z-index: -1;
+    filter: blur(20px);
+}

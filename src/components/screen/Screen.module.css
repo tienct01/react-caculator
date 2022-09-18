@@ -1,0 +1,24 @@
+.screen {
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 10px 10px;
+}
+.line1 {
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    text-align: end;
+}
+.result {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #222;
+    text-align: end;
+}
